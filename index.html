@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanchez Christmas | Home</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+    <img src="./Images/xmas-lights.gif" alt="Christmas Lights" class="lights-gif">
+        <h1 class="site-title">
+            <span class="red">Alan's</span>
+            <span class="green">Christmas</span>
+            <span class="red">Joy</span>
+            <span class="green">Website</span>
+          </h1>
+        <a href="index.html" class="nav-item current">Home</a>
+        <a href="gallery.html" class="nav-item">Gallery</a>
+        <a href="form.html" class="nav-item">Wish List</a>
+        <img src="./Images/xmas-lights.gif" alt="Christmas Lights" class="lights-gif">
+      </nav>
+
+      <div class="home-content">
+        <h2 class="greeting">Happy  <span>Christmas!</span></h2>
+        <div class="photo-container">
+       <img src="./Images/HomeChristmas.jpeg" class="HomeChristmas" alt="Christmas Photo">
+        </div>
+        <h3 class="homecontenttext">This <span>website</span> is to show all the memories, old and new, of the Sanchez Family! Feel free to explore and see all the photos, and be able to even make a wish!</h3>
+      </div>
+
+    <p class="learn-more">Learn <span>more</span> about <span>the</span> family<span>!</span></p>
+    <p class="Selecttext">Select <span>The</span> Family <span>Member</span> Here<span>!</span></p>
+
+    <div>
+  <div class="options">
+    <select id="family-dropdown" onchange="changeFamilyMember(this.value)">
+    <option value="placeholder">Select One!</option>
+      <option value="alan">Alan</option>
+      <option value="denisse">Denisse</option>
+      <option value="renzon">Renzon</option>
+      <option value="marvin">Marvin</option>
+      <option value="claudia">Claudia</option>
+      <option value="bailey">Bailey</option>
+    </select>
+  </div>
+
+  <div id="family-details" class="family-details">
+  </div>
+
+</div>
+
+
+<script src="index.js"></script>
+
+</body>
+</html>
