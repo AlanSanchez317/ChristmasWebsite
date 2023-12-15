@@ -7,7 +7,7 @@ const familyMembers = {
     alan: {
       name: 'Alan',
       photo: './Images/AlanPhoto.jpeg',
-      summary: 'Alan is a wonderful person. Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      summary: 'Hello, Im Alan! Im the creator of this website! I am currently in West-Mec for the coding program. I love all things video games (mostly rhythm games), and I enjoy drawing and coding. I am the one that helps set up all the lights, decorations, and other items that make everything look nice!'
     },
     denisse: {
       name: 'Denisse',
@@ -17,7 +17,7 @@ const familyMembers = {
     renzon: {
       name: 'Renzon',
       photo: './Images/RenzonPhoto.jpeg',
-      summary: 'Alan is a wonderful person. Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      summary: 'Renzon is my older brother, and the oldest sibling in the family. He works in photography, taking amazing photos, and is also a guitarist, a very good one at that! He comes over sometimes for the Holidays, wishing us holiday cheer.'
     },
     marvin: {
       name: 'Marvin',
@@ -44,7 +44,7 @@ const familyMembers = {
         familyDetailsContainer.innerHTML = `
             <img src="${selectedMemberData.photo}" class="family-photo">
             <div class="family-summary">
-                <h1>${selectedMemberData.name}</h1>
+                <h1 style="color: green;">${selectedMemberData.name}</h1>
                 <p>${selectedMemberData.summary}</p>
             </div>
         `;
