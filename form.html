@@ -23,6 +23,24 @@
             <a href="form.html" class="nav-item current">Wish List</a>
             <img src="./Images/xmas-lights.gif" alt="Christmas Lights" class="lights-gif">
           </nav>
-    
+        
+        <div class="decorative-container">
+        <form id="wish-form" class="form-container">
+            <h2>Christmas <span>Wish</span> List</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Your Name">
+        
+            <label for="gift-ideas">Gift Ideas:</label>
+            <textarea id="gift-ideas" name="gift-ideas" rows="4" required placeholder="Describe your gift ideas..."></textarea>
+        
+            <label for="comments">Additional Comments:</label>
+            <textarea id="comments" name="comments" rows="4" placeholder="Any additional comments..."></textarea>
+            
+            <button type="submit" id="submit-button">Wish!!</button>
+        </form>
+        </div>
+        
+<script src="form.js"></script>
+        
 </body>
 </html>
