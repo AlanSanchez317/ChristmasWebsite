@@ -6,6 +6,7 @@
     <title>Sanchez Christmas | Gallery</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
 </head>
 <body>
     <nav class="navbar">
@@ -22,5 +23,33 @@
             <img src="./Images/xmas-lights.gif" alt="Christmas Lights" class="lights-gif">
           </nav>
     
+
+          <div class="gallery-container">
+            <a href="./Images/Gallery1.jpeg" data-caption="Caption for Image 1">
+                <img src="./Images/Gallery1.jpeg" alt="Holiday Image 1">
+            </a>
+            <a href="./Images/Gallery2.jpeg" data-caption="Caption for Image 2">
+                <img src="./Images/Gallery2.jpeg" alt="Holiday Image 2">
+            </a>
+            <a href="./Images/Gallery3.jpeg" data-caption="Caption for Image 1">
+              <img src="./Images/Gallery3.jpeg" alt="Holiday Image 1">
+          </a>
+          <a href="./Images/Gallery4.jpeg" data-caption="Caption for Image 1">
+            <img src="./Images/Gallery4.jpeg" alt="Holiday Image 1">
+        </a>
+        <a href="./Images/Gallery5.jpeg" data-caption="Caption for Image 1">
+          <img src="./Images/Gallery5.jpeg" alt="Holiday Image 1">
+        </a>
+      <a href="./Images/Gallery6.jpeg" data-caption="Caption for Image 1">
+        <img src="./Images/Gallery6.jpeg" alt="Holiday Image 1">
+      </a>
+        </div>
+    
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
+        <script>
+            baguetteBox.run('.gallery-container');
+        </script>
+
 </body>
 </html>

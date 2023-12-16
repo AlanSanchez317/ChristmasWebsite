@@ -7,7 +7,7 @@ const familyMembers = {
     alan: {
       name: 'Alan',
       photo: './Images/AlanPhoto.jpeg',
-      summary: 'Hello, Im Alan! Im the creator of this website! I am currently in West-Mec for the coding program. I love all things video games (mostly rhythm games), and I enjoy drawing and coding. I am the one that helps set up all the lights, decorations, and other items that make everything look nice!'
+      summary: 'Hello, Im Alan! Im the creator of this website! I am currently in West-Mec for the coding program. I love all things video games (mostly rhythm games), and I enjoy drawing and coding. I am the one that helps set up all the lights, decorations, and other items that makes everything look nice!'
     },
     denisse: {
       name: 'Denisse',
@@ -22,7 +22,7 @@ const familyMembers = {
     marvin: {
       name: 'Marvin',
       photo: './Images/MarvinPhoto.jpeg',
-      summary: 'Alan is a wonderful person. Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      summary: 'Marvin is my dad. He works on databases and is the manager of his own team and he recently just got his masters degree! He enjoys photography, lofi music, and kicking butt in Street Fighter. He helps me set up all the lights in and out the house, as well as getting new lights to make each Christmas better!'
     },
     claudia: {
       name: 'Claudia',
@@ -32,7 +32,7 @@ const familyMembers = {
     bailey: {
         name: 'Bailey',
         photo: './Images/BaileyPhoto.jpeg',
-        summary: 'Alan is a wonderful person. Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        summary: 'Bailey is our dog, and he is everyones favorite. He loves to sleep, eat, and poop, all in that order. We were supposed to get a golden doodle, but we think he is a Schnoodle. He just follows everyone during the Holidays, making sure he can get all the attention!'
     },
   };
   
