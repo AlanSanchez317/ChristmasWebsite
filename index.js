@@ -27,7 +27,7 @@ const familyMembers = {
     claudia: {
       name: 'Claudia',
       photo: './Images/ClaudiaPhoto.jpg',
-      summary: 'Alan is a wonderful person. Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      summary: 'Claudia is my mom, she loves to cook and has been working in the mortgage industry for over 15 years. On her free time she enjoys watching TV. '
     },
     bailey: {
         name: 'Bailey',
