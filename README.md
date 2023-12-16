@@ -21,14 +21,14 @@ Wireframe Creation: Develop a wireframe to plan and organize the layout and cont
 Design an engaging home page with a welcoming holiday theme and navigation to other website sections. (15 points)
 Display a group picture prominently and provide a brief introduction to the purpose of the site. (10 points)
 Include individual summaries about each family member, showcasing their personalities, hobbies, and contributions to holiday traditions. (15 points)
-Gallery Page:
+## Gallery Page:
 
 Create a gallery page displaying images or videos from previous holiday engagements. Ensure user-friendly navigation within the gallery. (20 points)
-Christmas Wish List Form:
+## Christmas Wish List Form:
 
 Develop a functional form for family members to input their Christmas wish lists. Include fields for name, gift ideas, and any additional comments. (15 points)
 Ensure the form is user-friendly and visually appealing, utilizing appropriate input fields and design elements. (10 points)
-Design and Aesthetics:
+## Design and Aesthetics:
 
 Apply consistent design elements, color schemes, and typography throughout the website. (10 points)
 Ensure responsiveness for different screen sizes (desktop, tablet, mobile). (10 points)
